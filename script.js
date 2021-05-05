@@ -11,11 +11,3 @@ function makeBlack(){
     document.body.style.backgroundColor = "black";
 }
 
-$(".black").hide();
-    $(".blue").hide();
-
-$(".changeBg").click(function(){
-    $(".black").show();
-    $(".blue").show();
-  });
-
