@@ -11,3 +11,10 @@ function makeBlack(){
     document.body.style.backgroundColor = "black";
 }
 
+
+/*math.random implimentation*/
+function myFunction() {
+  return Math.random();
+}
+
+document.getElementById("demo").innerHTML = myFunction();
